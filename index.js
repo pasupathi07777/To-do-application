@@ -1,5 +1,9 @@
 
 
+
+
+
+
 let add = document.querySelector(".add");
 let add_con = document.querySelector(".add-con");
 let back = document.querySelector(".icon-1");
@@ -224,6 +228,5 @@ search.addEventListener("keyup", (event) => {
     let filtered_items = continer.filter((e) => e.title.trim(" ").toLowerCase().includes(user_input));
     content_generator(filtered_items);
 });
-
 
 

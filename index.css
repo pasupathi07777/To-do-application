@@ -69,5 +69,21 @@ textarea:hover, textarea:focus,textarea:active {
    
 }
 
+.view_container{
+  transition: all;
+  transition-duration: 3s;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  /* bottom: 0;
+  left: 0; */
+  right: 50%;
+  transform: translate(50%,-50%);
+  background-color: white;
+  z-index: 1000;
+ 
+}
+
 
 
